@@ -1,6 +1,7 @@
 module github.com/Dossified/Dossified-Shorts-Generator
 
-go 1.22.0
+go 1.23.0
+
 toolchain go1.24.1
 
 require (
@@ -9,7 +10,7 @@ require (
 	github.com/u2takey/ffmpeg-go v0.5.0
 	go.uber.org/zap v1.27.0
 	golang.org/x/net v0.38.0
-	golang.org/x/oauth2 v0.20.0
+	golang.org/x/oauth2 v0.27.0
 	google.golang.org/api v0.181.0
 )
 
